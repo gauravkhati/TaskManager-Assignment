@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100&family=Poiret+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    /* 1rem=10px; */
+}
+body{
+
+}
+:root{
+    --primary:#000839;
+    --primary-shades:#00020b;
+    --para-color:#80849c;
+    --helper-color:#1264fa;
+    --white:#fff;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+h1,h2,h3,h4{
+    color: var(--primary);
+}
+.para{
+    font-size:1.6rem;
+    line-height:1.7;
+    font-weight: 400;
+    color: var(--para-color);
+}
+/* --------------------- */
+/* header and navbar */
+/* --------------------- */
+.header{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    background-color: rgba(33,33,33,255);
+}
+.logo{
+    font-size: 1rem;
+    /* font-weight: bold; */
+    color:var(--white);
+}
+.navbar{
+    display:flex;
+    
+    align-items: center;
+}
+.navbar-list{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    
+}
+.navbar-list .navbar-btn{
+    padding:1.1rem;
+    background-color: var(--white);
+    color:var(--helper-color);
+    border: 1px solid var(--helper-color);
+    border-radius: 3rem;
+    transition: all 0.2s ease-in-out ;
+}
+.navbar-btn:hover{
+    background-color: var(--helper-color);
+    color: var(--white);
+    border-color: var(--white) ;
+}
+main{
+  display:flex;
+  height:94.6vh;
+
+  width: 100%;
+  background-color: rgba(33,33,33,255);;
+
+  justify-content: flex-end;
+}
+.right-div{
+  position:relative;
+  height:94.6vh;
+  border-radius: 8px ;
+  width:80%;
+  display: flex;
+  background-image: url("newback.jpg");
+  background-size: 100% 100%;
+  justify-content: center;
+  /* align-items: flex-start; */
+  
+}
+.left-div{
+  /* background-color: #1264fa; */
+  width: 20%;
+  left:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-day{
+  font-size:4rem;
+  color:azure;
+
+}
+p{
+  color:azure;
+  font-size: 2rem;
+}
+.task-display
+{ 
+  position:absolute;
+ 
+  /* background-color:darkgray; */
+  top: 3rem;
+  /* background-color: #80849c; */
+  width:80%;
+  /* margin-top: 3rem; */
+  height: 70vh;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow-y:auto;
+  /* scroll-padding: 8rem; */
+}
+.todo-task{
+  display:flex;
+  height:4.5rem;
+  font-size:1rem;
+  justify-content:space-between;
+  align-items: center;
+  color: #fff;
+  background-color: rgba(33,33,33,255);
+  width: 80rem;  
+  /* gap:5rem; */
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.classDetails{
+
+  margin-top: 1px;
+  /* background-color: beige; */
+  padding-left:2rem;
+}
+.task-option{
+  /* left:0px; */
+  display: flex;
+  width: 10rem;
+  margin-right:1rem;
+  justify-content:space-around;
+  cursor: pointer;
+/* background-color: #80849c; */
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}
+.todo-task ion-icon{
+  font-size: 2rem;
+}
+.star:hover{
+ color:yellow;
+}
+
+.input-task{
+  position: absolute;
+  bottom: 4rem;
+  /* background-color: #80849c;
+ */
+  width:80%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around ;
+}
+input{
+  width: 100%;
+  padding-left: 2rem;
+  background-color: #121618;
+  border-radius:3px;
+  color: whitesmoke;
+  font-weight:550;
+  border-style: none;
+}
+input:hover{
+  background-color: rgba(33,33,33,255);
+
+}
+
+.clear-list{
+  border: #1264fa;
+  border-radius: 6px;
+  background-image: linear-gradient(to left,rgb(79, 87, 91),rgb(27, 25, 51));
+  margin-left: 10px;
+  transition: all;
+}
+.clear-list:hover{
+  background-image: linear-gradient(to left,red,red
+  );
+  color: var(--white);
+  transform: scale(1.2,1.2);
+ 
+}
+
+
+.star{
+
+}
+
+

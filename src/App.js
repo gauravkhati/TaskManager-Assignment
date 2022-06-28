@@ -1,0 +1,17 @@
+import React, { useState } from 'react';
+import './App.css';
+import Header from './components/Header';
+import Task from './components/Task';
+
+function App() {
+ 
+  return (
+    
+    <>
+     <Header/>
+     <Task/>
+    </>
+  );
+}
+
+export default App;
