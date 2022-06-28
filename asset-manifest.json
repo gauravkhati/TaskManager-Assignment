@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TaskManager-Assignment/static/css/main.6e4c1dc2.css",
+    "main.js": "/TaskManager-Assignment/static/js/main.f6499563.js",
+    "static/js/787.97a945da.chunk.js": "/TaskManager-Assignment/static/js/787.97a945da.chunk.js",
+    "static/media/newback.jpg": "/TaskManager-Assignment/static/media/newback.f6bcd504c9e3c1d705b1.jpg",
+    "index.html": "/TaskManager-Assignment/index.html",
+    "main.6e4c1dc2.css.map": "/TaskManager-Assignment/static/css/main.6e4c1dc2.css.map",
+    "main.f6499563.js.map": "/TaskManager-Assignment/static/js/main.f6499563.js.map",
+    "787.97a945da.chunk.js.map": "/TaskManager-Assignment/static/js/787.97a945da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e4c1dc2.css",
+    "static/js/main.f6499563.js"
+  ]
+}
